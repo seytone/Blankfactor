@@ -1,66 +1,36 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://blankfactor.com/about/" target="_blank">
+<svg width="150" height="51" viewBox="0 0 150 51" fill="none" xmlns="http://www.w3.org/2000/svg"> <path class="letters" d="M12.1676 6.73555C9.68541 6.73555 7.37601 7.48394 5.44847 8.76691V0H0.00909215V18.5256C0.00681911 18.6553 0 18.7827 0 18.9123C0 25.6274 5.45756 31.0891 12.1676 31.0891C18.8776 31.0891 24.3351 25.6274 24.3351 18.9123C24.3351 12.1995 18.8776 6.73555 12.1676 6.73555ZM12.1676 25.6479C8.47161 25.6479 5.46211 22.6475 5.44165 18.9533H5.44847V18.719C5.55303 15.0953 8.52162 12.179 12.1676 12.179C15.8772 12.179 18.8958 15.1999 18.8958 18.9123C18.8958 22.627 15.8772 25.6479 12.1676 25.6479Z" fill="white"></path> <path class="letters" d="M52.7685 6.73553C46.0585 6.73553 40.601 12.1972 40.601 18.9123C40.601 25.6274 46.0585 31.0891 52.7685 31.0891C55.2598 31.0891 57.576 30.3361 59.5058 29.0463V30.7478H64.9452V18.8691H64.9338C64.9111 12.1745 59.4626 6.73553 52.7685 6.73553ZM52.7685 25.6478C49.0589 25.6478 46.0403 22.627 46.0403 18.9146C46.0403 15.2022 49.0589 12.1813 52.7685 12.1813C56.4781 12.1813 59.4967 15.2022 59.4967 18.9146C59.4967 22.627 56.4781 25.6478 52.7685 25.6478Z" fill="white"></path> <path class="letters" d="M105.396 0H99.9569V30.7433H105.396V18.8441V0Z" fill="white"></path> <path class="letters" d="M82.4248 6.73553C79.9381 6.73553 77.6219 7.48848 75.6944 8.77599V7.11087H70.255V18.9896H70.2573V30.7365H75.6967V18.9123C75.6967 15.1999 78.7153 12.179 82.4248 12.179C86.1344 12.179 89.153 15.1999 89.153 18.9123V30.7797H94.5924V18.9123C94.5924 12.1995 89.1349 6.73553 82.4248 6.73553Z" fill="white"></path> <path class="letters" d="M36.0457 0H30.6063V30.7433H36.0457V0Z" fill="white"></path> <path d="M137.128 5.83023L133.286 9.68367L142.303 18.6849L133.284 27.7111L137.13 31.56L150 18.6803L137.128 5.83023Z" fill="#00CDE7"></path> <path d="M122.112 9.68137L118.266 5.83249L105.398 18.7099L118.268 31.5622L122.11 27.7088L113.095 18.7053L122.112 9.68137Z" fill="#00CDE7"></path> <path class="letters" d="M3.08687 50.6861H1.7185V40.9206H0.250122V39.6899H1.65941V39.3897C1.65941 38.2227 1.9549 37.3606 2.54362 36.801C3.13233 36.2414 4.037 35.9616 5.25535 35.9616H5.38491V37.2309C4.53934 37.2446 3.94153 37.4129 3.59149 37.7359C3.24144 38.0589 3.06642 38.6117 3.06642 39.3897V39.6899H5.38491V40.9206H3.08687V50.6861Z" fill="white"></path> <path class="letters" d="M28.2401 48.9482C27.8014 49.5806 27.2059 50.0787 26.4581 50.4382C25.7102 50.7976 24.901 50.9773 24.035 50.9773C22.4234 50.9773 21.0823 50.4268 20.0095 49.3235C18.9366 48.2203 18.4001 46.86 18.4001 45.2403C18.4001 43.5934 18.9479 42.2172 20.0436 41.1117C21.1392 40.0061 22.5098 39.4534 24.1532 39.4534C24.9988 39.4534 25.7739 39.624 26.4808 39.9675C27.1854 40.311 27.7719 40.8046 28.2379 41.4529V39.6945H29.6153V50.6907H28.2379V48.9482H28.2401ZM28.2401 45.1198C28.2401 43.9528 27.8242 42.936 26.9922 42.0648C26.1603 41.1958 25.2011 40.7614 24.1146 40.7614C22.9349 40.7614 21.9324 41.1958 21.1028 42.0648C20.2731 42.9337 19.8594 44.012 19.8594 45.2995C19.8594 46.5256 20.2731 47.5606 21.0982 48.4023C21.9234 49.2462 22.9167 49.667 24.0759 49.667C25.1943 49.667 26.1694 49.2212 26.9968 48.3317C27.8242 47.4423 28.2401 46.3709 28.2401 45.1198Z" fill="white"></path> <path class="letters" d="M53.6504 43.0702C53.2185 42.2695 52.6889 41.6781 52.0661 41.2959C51.4433 40.9138 50.7023 40.7204 49.8431 40.7204C48.7111 40.7204 47.7496 41.1503 46.9608 42.0102C46.1721 42.8701 45.7766 43.9324 45.7766 45.1994C45.7766 46.4664 46.1721 47.5242 46.9654 48.3727C47.7587 49.2234 48.7361 49.6465 49.9022 49.6465C50.7545 49.6465 51.5069 49.4373 52.1593 49.0164C52.8116 48.5956 53.3072 48.0064 53.6481 47.2467H55.2074C54.7801 48.4387 54.1118 49.3622 53.2003 50.0151C52.2888 50.6679 51.2114 50.9955 49.9749 50.9955C48.3838 50.9955 47.0404 50.4313 45.9448 49.3008C44.8492 48.1702 44.3014 46.8099 44.3014 45.2176C44.3014 43.5911 44.856 42.2126 45.9653 41.0844C47.0745 39.9561 48.4247 39.3897 50.0158 39.3897C51.2069 39.3897 52.2593 39.7104 53.1662 40.3542C54.0755 40.9979 54.7551 41.901 55.2097 43.068H53.6504V43.0702Z" fill="white"></path> <path class="letters" d="M72.5189 50.686V41.1092H70.4323V39.6898H72.5189V36.1321H73.9282V39.6898H76.0148V41.1092H73.9282V50.686H72.5189Z" fill="white"></path> <path class="letters" d="M91.0215 45.1994C91.0215 43.5866 91.5738 42.2081 92.6785 41.0616C93.7832 39.9151 95.0925 39.3419 96.6041 39.3419C98.1952 39.3419 99.5522 39.906 100.675 41.032C101.798 42.158 102.357 43.5001 102.357 45.0606C102.357 46.7007 101.807 48.0997 100.709 49.2598C99.6113 50.4199 98.2793 51 96.7132 51C95.122 51 93.7741 50.4313 92.6717 49.2962C91.5738 48.1566 91.0215 46.7917 91.0215 45.1994ZM92.5012 45.1789C92.5012 46.446 92.9036 47.506 93.7105 48.3636C94.5151 49.2189 95.5175 49.6488 96.7177 49.6488C97.8974 49.6488 98.8862 49.2212 99.684 48.3636C100.484 47.5083 100.882 46.4391 100.882 45.1607C100.882 43.8618 100.477 42.7927 99.6681 41.9579C98.8589 41.1207 97.8315 40.7045 96.5859 40.7045C95.4675 40.7045 94.506 41.1344 93.7037 41.9943C92.9013 42.8496 92.5012 43.9119 92.5012 45.1789Z" fill="white"></path> <path class="letters" d="M119.635 50.6861H118.207V39.6899H119.534V40.9592C119.88 40.4724 120.26 40.1153 120.669 39.8901C121.078 39.6626 121.555 39.5443 122.103 39.5307L122.112 41.0593C121.226 41.139 120.591 41.4051 120.21 41.8532C119.825 42.3036 119.635 43.0338 119.635 44.0484V50.6861Z" fill="white"></path> </svg>
+</a>
 </p>
 
-## About Laravel
+## About Blankfactor
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+We’re a global technology partner that provides end-to-end digital services. Combining our unparalleled experience and successful track record with our diverse and multidisciplinary top talent that works hand-in-hand with your team, we deliver guaranteed excellence in every project.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Instructions to run
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This project was built using Laravel Sail, a light-weight command-line interface for interacting with Laravel's default Docker development environment. To run this project, just follow the steps below:
 
-## Learning Laravel
+- Clone the repo [https://github.com/seytone/blankfactorphptest.git](https://github.com/seytone/blankfactorphptest.git) to download to your local.
+- Open a Linux or WSL2 terminal
+- Run: git clone https://github.com/seytone/blankfactorphptest.git
+- Run: cd blankfactorphptest
+- Run: composer install
+- Run: sail up -d
+- Run: sail artisan migrate
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+If you experiment issues with .env file while running sail commands, try to do the following inside WSL:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Run: sudo apt-get update
+- Run: sudo apt-get install dos2unix
+- Run: dos2unix .env
+- Finally, run sail up -d again
 
-## Laravel Sponsors
+## Instructions to test
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+You can use Postman in order to test the API methods created for the test. So, just import the Blanckfactor PHP-test.postman_collection.json file to Postman and run each method in the correct order.
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Register: Create a new user with the required fields in the body form-data option (name, email and password).
+- Login: Use the user created with the previous method to login and get access to get access to restricted methods.
+- User: Set a bearer token header with the access_token returned to the previous method, then specify an user ID in the url to retrieve their info.
