@@ -30,3 +30,7 @@ You can use Postman in order to test the API methods created for the test. So, j
 - Register: Create a new user with the required fields in the body form-data option (name, email and password).
 - Login: Use the user created with the previous method to login and get access to get access to restricted methods.
 - User: Set a bearer token header with the access_token returned to the previous method, then specify an user ID in the url to retrieve their info.
+
+## Specifications
+
+This project was build using Laravel v8.76.2, MySQL v8.0 and PHP v8.1.0
