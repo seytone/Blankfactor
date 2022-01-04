@@ -1,66 +1,36 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="https://blankfactor.com/about/" target="_blank"><img src="https://vincularlatam.com/zipsydro/Logo-Blankfactor-transparente-300x300.png" width="300"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## About Blankfactor
 
-## About Laravel
+We’re a global technology partner that provides end-to-end digital services. Combining our unparalleled experience and successful track record with our diverse and multidisciplinary top talent that works hand-in-hand with your team, we deliver guaranteed excellence in every project.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Instructions to run
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This project was built using Laravel Sail, a light-weight command-line interface for interacting with Laravel's default Docker development environment. To run this project, just follow the steps below:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Clone the repo [https://github.com/seytone/blankfactorphptest.git](https://github.com/seytone/blankfactorphptest.git) to download to your local.
+- Open a Linux or WSL2 terminal
+- Run: git clone https://github.com/seytone/blankfactorphptest.git
+- Run: cd blankfactorphptest
+- Run: composer install
+- Run: sail up -d
+- Run: sail artisan migrate
 
-## Learning Laravel
+If you experiment issues with .env file while running sail commands, try to do the following inside WSL:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Run: sudo apt-get update
+- Run: sudo apt-get install dos2unix
+- Run: dos2unix .env
+- Finally, run sail up -d again
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Instructions to test
 
-## Laravel Sponsors
+You can use Postman in order to test the API methods created for the test. So, just import the Blanckfactor PHP-test.postman_collection.json file to Postman and run each method in the correct order.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- Register: Create a new user with the required fields in the body form-data option (name, email and password).
+- Login: Use the user created with the previous method to login and get access to get access to restricted methods.
+- User: Set a bearer token header with the access_token returned to the previous method, then specify an user ID in the url to retrieve their info.
 
-### Premium Partners
+## Specifications
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project was build using Laravel v8.76.2, MySQL v8.0 and PHP v8.1.0
